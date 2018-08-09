@@ -3,7 +3,9 @@
 AB Deployment
 `oc new-project abdeployment`
 
-Create php app with out route and add  label  abgroupmember=true
+Create php app with out route and add  label  
+
+`abgroupmember=true`
 
 `app name = app-a`
 
