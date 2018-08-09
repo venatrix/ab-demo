@@ -17,11 +17,10 @@ Create php app with out route and add  label
 
 go to spec: > selector: > deploymentconfig:
 
-add
-```
-appp-a 
-abgroupmember: "true"
-```
+add under `appa`
+
+`abgroupmember: "true"`
+
 
 add new service
 
