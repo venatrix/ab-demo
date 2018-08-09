@@ -17,7 +17,7 @@ Create php app with out route and add  label
 
 go to spec: > selector: > deploymentconfig:
 
-add under `appa`
+add under `app-a`
 
 `abgroupmember: "true"`
 
