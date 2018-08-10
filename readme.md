@@ -46,7 +46,7 @@ Create new php app with out route and add label abgroupmember=true
 
 Add Label `abgroupmember: "true"`
 
-`git url : https://github.com/venatrix/ab-demo.git`
+git url :` https://github.com/venatrix/ab-demo.git`
 
 check with curl `while true;do curl <URL>; echo " "; sleep 1; done;`
 
