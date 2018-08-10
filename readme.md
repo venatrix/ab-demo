@@ -1,5 +1,7 @@
 ## Openshift AB DEPLOYMENT demonstration with a simple PHP Application
-![](abdeploy.PNG)
+![](abdepoy.PNG)
+
+
 
 
 In this demo, we will check how to minimize the downtime of a Application while updating or running two version of the Application.   
