@@ -1,5 +1,5 @@
 ## Openshift AB DEPLOYMENT demonstration with a simple PHP Application
-In this demo, we will check how to minimize the downtime of a Application by updating or running two version of the Application.   
+In this demo, we will check how to minimize the downtime of a Application while updating or running two version of the Application.   
 create a common `service` and a common `route` for the pods, expose the pods by using common `service` & `route`
 
 AB Deployment
