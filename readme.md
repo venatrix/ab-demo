@@ -1,5 +1,5 @@
 ## Openshift AB DEPLOYMENT demonstration with a simple PHP Application
-![](abdepoy.PNG)
+![](abdeploy.PNG)
 
 
 
