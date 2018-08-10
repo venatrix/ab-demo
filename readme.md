@@ -2,6 +2,19 @@
 ![](abdeploy.PNG)
 
 
+#### A/B Deployment
+#### A/B deployments generally imply running two (or more) versions of the application code or application configuration at the same time for testing or experimentation purposes.
+
+#### The simplest form of an A/B deployment is to divide production traffic between two or more distinct shards — a single group of instances with homogeneous configuration and code.
+
+#### A/B deployments can be considered similar to A/B testing, although an A/B deployment implies multiple versions of code and configuration, where as A/B testing often uses one code base with application specific checks.
+
+#### When to Use an A/B Deployment
+#### When you want to test multiple versions of code or configuration, but are not planning to roll one out in preference to the other.
+
+#### When you want to have different configuration in different regions.
+
+#### An A/B deployment groups different configuration and code — multiple shards — together under a single logical endpoint. Generally, these deployments, if they access persistent data, should properly deal with N-1 compatibility (the more shards you have, the more possible versions you have running). Use this pattern when you need separate internal configuration and code, but end users should not be aware of the changes.
 
 
 In this demo, we will check how to minimize the downtime of a Application while updating or running two version of the Application.   
