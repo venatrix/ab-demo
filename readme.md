@@ -44,8 +44,6 @@ Create new php app with out route and add label abgroupmember=true
 
 `git url : https://github.com/venatrix/ab-demo.git`
 
-create route the service `ab-service`
-
-`oc expose service ab-service --name=ab-route --hostname=<your url>`
+check with curl `while true;do curl <URL>; echo " "; sleep 1; done;`
 
 
